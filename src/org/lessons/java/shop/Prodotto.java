@@ -11,7 +11,7 @@ public class Prodotto {
     private float iva;
 
 
-      public Prodotto (String nome, String marca, float prezzo, int iva){
+      public Prodotto (String nome, String marca, float prezzo, float iva){
         Random numero = new Random();
         this.codice = numero.nextInt(1000);
         this.nome = nome;

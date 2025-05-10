@@ -16,7 +16,12 @@ public class Smartphone extends Prodotto {
     }
 
    public int getCodiceIMEI(){
-    return this.codiceIMEI;
+    return codiceIMEI;
+   }
+
+   public void setCodiceIMEI(int codiceIMEI){
+    this.codiceIMEI = codiceIMEI;
+
    }
 
    public int getMemoria(){

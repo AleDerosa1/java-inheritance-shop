@@ -7,6 +7,7 @@ public class Main {
         Smartphone Iphone = new Smartphone("Iphone", "Apple", 1200, 22, 3784600, 128);
 
         System.out.println(Iphone.getNome());
+        System.out.println(Iphone.getCodiceIMEI());
 
 
 
