@@ -1,8 +1,13 @@
 import org.lessons.java.shop.Prodotto;
 import org.lessons.java.shop.Smartphone;
+import org.lessons.java.shop.Televisori;
 
 public class Main {
     public static void main(String[] args) {
+
+        Televisori Samsung = new Televisori("Samsung X5", "Samsung", 1500, 22, 55, "Smart TV");
+        System.out.println(Samsung.getNome());
+        System.out.println(Samsung.getSmartTV());
 
         Smartphone Iphone = new Smartphone("Iphone", "Apple", 1200, 22, 3784600, 128);
 
